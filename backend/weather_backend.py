@@ -3,11 +3,9 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
-API_keys = ["00d37d147fde4cbfb0d170238251512",
-            "121efa7f6955452289a123638251512",
-            "999616c43a764d4b846141555251512",
-            "744688c7b03742488ec165600251512",
-            "823af78914834a5fb33165307251512"
+API_keys = ["ENTER API KEY 1",
+            "ENTER API KEY 2",
+            "ENTER API KEY 3"
             ]
 
 BASE_URL_CURRENT = "https://api.weatherapi.com/v1/current.json"
