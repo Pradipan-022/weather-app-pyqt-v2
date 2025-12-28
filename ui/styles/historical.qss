@@ -1,0 +1,57 @@
+/* Title */
+QLabel#historyTitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+
+/* Back button */
+QPushButton#backButton {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #38bdf8;
+}
+
+QPushButton#backButton:hover {
+    color: #7dd3fc;
+}
+
+/* Description text */
+QLabel#descriptionLabel {
+    background-color: #020617;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 12px;
+    font-size: 14px;
+    color: #cbd5f5;
+}
+
+/* Option buttons (plot selectors) */
+QPushButton#optionButton {
+    background-color: #020617;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+QPushButton#optionButton:hover {
+    background-color: #1e293b;
+}
+
+/* Generate plot button */
+QPushButton#plotButton {
+    background-color: #16a34a;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+QPushButton#plotButton:hover {
+    background-color: #15803d;
+}

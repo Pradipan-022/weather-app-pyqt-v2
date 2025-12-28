@@ -1,0 +1,33 @@
+/* City name */
+QLabel#cityLabel {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Temperature */
+QLabel#tempLabel {
+    font-size: 32px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+/* Secondary weather info */
+QLabel#humidityLabel,
+QLabel#pressureLabel,
+QLabel#windLabel,
+QLabel#conditionLabel {
+    font-size: 14px;
+    color: #cbd5f5;
+}
+
+/* Historical button emphasis */
+QPushButton#historicalButton {
+    margin-top: 20px;
+    background-color: #0284c7;
+    border: none;
+}
+
+QPushButton#historicalButton:hover {
+    background-color: #0369a1;
+}

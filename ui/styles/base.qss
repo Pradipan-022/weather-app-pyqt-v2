@@ -1,0 +1,42 @@
+/* Global app background */
+QWidget {
+    background-color: #0f172a;   /* dark blue */
+    color: #e5e7eb;              /* light text */
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+/* LineEdit (city input) */
+QLineEdit {
+    background-color: #020617;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 8px;
+    color: #e5e7eb;
+}
+
+QLineEdit:focus {
+    border: 1px solid #38bdf8;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 8px 14px;
+    color: #e5e7eb;
+}
+
+QPushButton:hover {
+    background-color: #334155;
+}
+
+QPushButton:pressed {
+    background-color: #020617;
+}
+
+/* Labels */
+QLabel {
+    font-size: 15px;
+}
